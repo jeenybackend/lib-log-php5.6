@@ -1,0 +1,22 @@
+{
+    "name": "easytaxibr/lib-log",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Leandro Augusto",
+            "email": "leandro.freire@easytaxi.com.br"
+        },
+        {
+            "name": "Jefferson Franca",
+            "email": "jefferson.franca@easytaxi.com.br"
+        }
+    ],
+    "require": {
+        "graylog2/gelf-php": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Thundera": "src/"
+        }
+    }
+}
